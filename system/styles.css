@@ -1,0 +1,205 @@
+
+BODY {
+	margin: 0px;
+	font-family: "Century gothic",verdana, Arial, sans-serif;
+	background-color: #FF0;
+}
+
+#header {
+	height: 50px;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+}
+
+#header #title {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#header #logout {
+	font-size: 10px;
+	float: right;
+	margin: 5px;
+}
+
+#header #logout A {
+	color: #fff;
+	text-decoration: none;
+}
+
+#navigation {
+	background-color: #F80;
+	height: 10px;
+	clear: both;
+	padding: 5px 5px 5px 20px;
+	font-size: 10px;
+}
+
+#navigation UL {
+	margin: 0px;
+}
+
+#navigation LI {
+	display: block;
+	float: left;
+	width: 80px;
+	cursor: pointer;
+}
+
+#navigation A {
+	text-decoration: none;
+	color: #000;
+}
+
+
+#body {
+	padding: 20px;
+}
+
+#body H3 {
+	font-size: 14px;
+	border-bottom: 1px solid #000;
+}
+
+#helper {
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background-color: #FFFF66;
+}
+
+#helper #title {
+	font-size: 12px;
+	padding-left: 5px;
+	background-color: #000;
+	color: #fff;
+	line-height: 20px;
+	height: 20px;
+}
+
+#helper #description {
+	font-size: 10px;
+	padding: 10px;
+}
+
+
+#helper A {
+	color: #00F;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	background-color: #000;
+	text-align: center;
+	font-size: 10px;
+	line-height: 30px;
+	color: #fff;
+}
+
+#login {
+	text-align: center; 
+	line-height: 400px; 
+	font-size: 14px
+}
+
+#password {
+	font-size: 10px;
+}
+
+INPUT[type=text] {
+	font-size: 10px;
+}
+LABEL {
+	display: block;
+	width: 100px;
+	float: left;
+}
+
+#submit {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	font-size: 11px;
+}
+
+
+#help {
+	padding: 20px;
+	overflow: auto;
+}
+
+#help H3 {
+	font-size: 14px;
+	border-bottom: 1px solid #000;
+}
+
+#help H4 {
+	font-size: 14px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+#help LI {
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+#help P {
+	font-size: 12px;
+	background-color: #FFFF66;
+	margin: 2px;
+	padding: 10px;
+}
+
+#help P A {
+	color: #00F;
+}
+
+#expand, #collapse {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	font-size: 11px;
+}
+
+#sources {
+	font-size: 12px;
+}
+
+#available {
+	font-size: 12px;
+}
+
+#repo_title {
+	background-color: #000;
+	color: #fff;
+	padding: 2px;
+}
+
+#extension {
+	background-color: #FFFF66;
+	padding: 5px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	cursor: pointer;
+}
+
+#extension #title {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#extension #install A {
+	font-size: 10px;
+	color: #00f;
+}
+
+#search {
+	font-size: 12px;
+}
